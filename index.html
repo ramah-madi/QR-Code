@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Adding Outfit font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #D5E1EF;
+      color: black;
+      font-family: "Outfit", sans-serif;  
+    }
+
+    .attribution { 
+      font-size: 15px; text-align: center; 
+      margin-top: 20px;
+    }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 95vh;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 320px;
+      height: 497px;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 4px 4px 10px rgba(128, 128, 128, 0.2);
+
+    }
+
+    img {
+      border-radius: 10px;
+      margin-top: 17px;
+    }
+
+    h1 {
+      font-size: 1.4rem;   
+      text-align: center;   
+      line-height: 32px; 
+      margin-top: 16px;
+    }
+
+    p span {
+      display: block;
+      text-align: center;
+      letter-spacing: 0.19px;
+      margin-top: 2px;
+      color: #7D889E;
+      font-size: .95rem;
+    }
+
+    p {
+      margin-top: 15px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/ramah-madi">Ramah Madi</a>.
+  </div>
+
+<main class="main">
+  <div class="container">
+    <img src="images/image-qr-code.png" alt="QR Code" width="288px">
+    <h1 class="heading">Improve your front-end <br /> skills by building projects</h1>
+    <p class="paragraph">
+      <span>Scan the QR code to visit Frontend</span> 
+      <span>Mentor and take your coding skills to</span> 
+      <span>the next level</span>
+    </p>
+  </div>
+</main>
+</body>
+</html>
